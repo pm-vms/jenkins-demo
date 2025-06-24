@@ -3,7 +3,7 @@ require("dotenv").config();
 
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = 3002;
 
 // Health Check API
 app.get("/health", (req, res) => {
